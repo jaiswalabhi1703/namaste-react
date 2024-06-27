@@ -1,0 +1,22 @@
+cdn 
+//content delivery network where this react is hosted and we can directly use this from there
+
+
+creating a react element
+const heading=React.createElement("h1",{},"Hello from React");
+const root=ReactDOM.createRoot(document.getElementById("root"));
+root.render(heading);
+
+create a element inside an element 
+like this <div>
+<div>
+<div>
+</div>
+</div>
+</div>
+
+// const div=React.createElement("div",{},React.createElement("div",{},React.createElement("div",{},"System in Sytem in System")));
+
+// const root=ReactDOM.createRoot(document.getElementById("root"));
+
+// root.render(div);
